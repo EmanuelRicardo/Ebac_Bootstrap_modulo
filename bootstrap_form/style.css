@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(212, 192, 11);
+}
+header {
+    background-color: rgba(12, 172, 12, 0.836);
+    text-align: center;
+}
+
+#formulario {
+    padding-top: 80px;
+}
+
+#formulario h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
