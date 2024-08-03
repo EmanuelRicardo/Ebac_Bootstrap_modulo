@@ -9,3 +9,13 @@
 .card-img-overlay {
     background-color: rgb(0, 0, 0, 0.3);
 }
+
+#card3 .card-header {
+    font-weight: bold;
+    color: white;
+}
+
+#card3 .card-title {
+    font-style: italic;
+    color: #ffff00b0;
+}
