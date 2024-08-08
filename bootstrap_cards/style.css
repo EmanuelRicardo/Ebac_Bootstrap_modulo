@@ -19,3 +19,7 @@
     font-style: italic;
     color: #ffff00b0;
 }
+
+#card3 .card-body a {
+    background-color: black;
+}
