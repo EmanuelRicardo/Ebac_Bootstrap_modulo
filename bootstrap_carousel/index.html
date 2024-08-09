@@ -8,19 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="carousel-slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1000">
-                <img src="https://cdn.pixabay.com/photo/2024/01/05/17/39/banana-leaf-8489887_1280.jpg" alt=" plantas">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1000">
+                            <img src="https://cdn.pixabay.com/photo/2024/01/05/17/39/banana-leaf-8489887_1280.jpg" alt=" plantas">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <img src="https://cdn.pixabay.com/photo/2024/07/29/02/28/snake-8928741_1280.jpg" alt="Cobra verde">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <img src="https://cdn.pixabay.com/photo/2024/01/02/10/33/stream-8482939_1280.jpg" alt="cachoeira">
+                        </div>
+                        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
             </div>
-            <div class="carousel-item" data-bs-interval="1000">
-                <img src="https://cdn.pixabay.com/photo/2024/07/29/02/28/snake-8928741_1280.jpg" alt="Cobra verde">
             </div>
-            <div class="carousel-item" data-bs-interval="1000">
-                <img src="https://cdn.pixabay.com/photo/2024/01/02/10/33/stream-8482939_1280.jpg" alt="cachoeira">
-            </div>
-
-            
         </div>
     </div>
 
