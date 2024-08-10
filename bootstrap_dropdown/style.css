@@ -1,8 +1,15 @@
-.dropdown li a {
-    color: rgba(23, 185, 44, 0.493);
+.dropdown button {
+    background-color: #1E3A8A;
+    margin-top: 10px;
     font-weight: bold;
 }
 
 .dropdown ul {
-    background-color: rgba(238, 46, 12, 0.473);
+    background-color: #1E40AF;
 }
+
+.dropdown li a {
+    color: #D1D5DB;
+    font-weight: bold;
+}
+
