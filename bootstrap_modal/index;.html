@@ -8,10 +8,10 @@
     ">
 </head>
 <body>
-    <button class="btn btn-secondary">
+    <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal_principal">
         Abrir modal
     </button>
-    <div class="modal">
+    <div class="modal" id="modal_principal">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -20,8 +20,9 @@
                 <div class="modal-body">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, provident aspernatur. Perferendis ipsa architecto totam laudantium, accusantium facere aspernatur eaque ducimus numquam optio obcaecati amet repellat tempora animi ab delectus!</p>
                 </div>
-                <div class="moda-footer">
-                    <h1>Rodapé da modal</h1>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Aceitar</button>
                 </div>
             </div>
         </div>
